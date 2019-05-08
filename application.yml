@@ -6,12 +6,12 @@
 spring:
   profiles: dev #开发环境
   application:
-    name: microservicecloud-config-comtop-dev
+    name: microservicecloud-config-lljdemo-dev
 
 ---
 spring:
   profiles: test #测试环境
   application:
-    name: microservicecloud-config-comtop-test
+    name: microservicecloud-config-lljdemo-test
 
 #请保存为UTF-8格式

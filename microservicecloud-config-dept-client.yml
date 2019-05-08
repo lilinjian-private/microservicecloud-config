@@ -26,7 +26,7 @@ spring:
     database: oracle
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml    # mybatis配置文件所在路径
-  type-aliases-package: com.comtop.springcloud.entities # 所有Entity别名类所在包
+  type-aliases-package: com.lljdemo.springcloud.entities # 所有Entity别名类所在包
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml                   # mapper映射文件
 eureka:
@@ -39,7 +39,7 @@ eureka:
     prefer-ip-address: true #访问路径可以显示IP地址
 
 info:
-  app.name: comtop-microservicecloud-springcloudconfig01
+  app.name: lljdemo-microservicecloud-springcloudconfig01
   company.name: www.baidu.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
@@ -67,7 +67,7 @@ spring:
     database: oracle
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml    # mybatis配置文件所在路径
-  type-aliases-package: com.comtop.springcloud.entities # 所有Entity别名类所在包
+  type-aliases-package: com.lljdemo.springcloud.entities # 所有Entity别名类所在包
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml                   # mapper映射文件
 
@@ -81,7 +81,7 @@ eureka:
     prefer-ip-address: true #访问路径可以显示IP地址
 
 info:
-  app.name: comtop-microservicecloud-springcloudconfig02
+  app.name: lljdemo-microservicecloud-springcloudconfig02
   company.name: www.baidu.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
